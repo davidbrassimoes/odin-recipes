@@ -1,0 +1,41 @@
+body {
+    background-color: burlywood;
+    color: rgb(29, 48, 48);
+    font-family: 'Lucida console', monospace;
+}
+h1 {
+    text-align: center;
+    background-color: burlywood;
+    width: 200px;
+}
+h1:hover {
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+ul {
+    border: whitesmoke 2px solid;
+    justify-content: space-around;
+    background-color: darkslategray;
+    list-style-type: none;
+    font-size: 20px;
+    width: 200px;
+    padding: 0;
+    text-align: center;
+}
+li {
+    color: whitesmoke;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li:hover{
+    background-color: rgb(245, 221, 82);
+    color: rgb(29, 48, 48);
+    border: red 3px dotted;
+}
+img {
+    height: auto;
+    width: 300px;
+}
